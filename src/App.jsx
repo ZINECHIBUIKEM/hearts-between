@@ -1,6 +1,7 @@
 import './App.css'
 import { useState } from "react"
 import { CursorFollower } from "./utils/CursorFollower"
+import { Navbar } from "./components/Navbar"
 
 function App() {
   const [lightmode, setLightmode] = useState(true);
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <link rel="icon" href="HeartsbetweenFavicon.png" />
+      <Navbar />
       
       <div>
         <CursorFollower lightmode={lightmode} />
