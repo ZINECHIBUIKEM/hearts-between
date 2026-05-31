@@ -9,14 +9,14 @@ export function Footer() {
 
   return (
 
-    <div className="h-[200vh] w-screen md:h-[250vh] mt-50 flex flex-col items-center justify-between px-5 py-10 bg-[#4C1711] text-white">
+    <div className="h-[200vh] w-screen md:h-[250vh] mt-20 flex flex-col items-center justify-between px-5 py-10 bg-[#4C1711] text-white">
 
 
       <div className="flex flex-col items-center md:flex-row justify-between w-screen">
         <div className="w-screen flex justify-center py-10">
           <div className="flex flex-col items-center gap-7 px-5">
             <img src={HBWhite} className="w-20" />
-            <p className="text-4xl font-bold">Choose to <span className="opacity-40">be</span> kind</p>
+            <p className="text-4xl font-bold">Be <span className="opacity-40">part</span> of <span className="opacity-40">a</span> child's story.</p>
 
             <button className="flex items-center justify-center pt-1.5 pb-2 px-5 rounded-full hover:ring hover:bg-white/0 hover:text-white text-black bg-white cursor-pointer transition-all duration-200 ease-in-out">
               Donate
@@ -87,7 +87,7 @@ export function Footer() {
         2026 HeartsBetween. All right reserved.
       </span>
 
-      <div className="hidden mt-10 h-auto w-screen overflow-hidden justify-start md:flex">
+      <div className="hidden mt-10 h-auto w-screen overflow-hidden justify-end md:flex">
         <img src={FadeIn2} className="opacity-2 min-w-1000 nowrap shrink-0" />
       </div>
 
