@@ -21,7 +21,7 @@ export function CursorFollower({ lightmode }) {
 
   return (
     <motion.div
-      className={`fixed opacity-0 top-0 left-0 w-3 h-3 rounded-full pointer-events-none z-110 sm:opacity-100 ${lightmode ? "bg-black" : "bg-white"}`}
+      className={`fixed opacity-0 top-0 left-0 w-3 h-3 rounded-full pointer-events-none z-110 sm:opacity-100 ${lightmode ? "bg-[#4C1711]" : "bg-white"}`}
       style={{
         translateX: springX,
         translateY: springY,
