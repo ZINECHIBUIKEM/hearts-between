@@ -145,7 +145,7 @@ function App() {
       </div>
 
       <div className="hidden mt-20 h-auto w-screen overflow-hidden justify-start md:flex">
-        <img src={FadeInImage} className="opacity-5 min-w-1000 nowrap shrink-0" />
+        <img src={FadeInImage} className="opacity-3 min-w-1000 nowrap shrink-0" />
       </div>
 
       <div>
