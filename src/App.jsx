@@ -46,10 +46,10 @@ function App() {
 
       <div className="w-screen">
         <div className="absolute top-55 md:top-70 flex flex-col items-center w-screen px-5 md:px-20 z-10  font-[dancing]">
-          <p className="font-semibold md:font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="font-[sail] text-6xl md:text-8xl">Minds</span>, Guiding <span className="text-[#ffffff] font-[sail] text-6xl md:text-8xl">Hearts.</span></p>
-          <span className="text-white pt-5 font-[poppins] text-sm md:text-base" >
+          <h className="font-semibold md:font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="text-5xl md:text-8xl">Minds</span>, Guiding <span className="text-[#ffffff] text-5xl md:text-8xl">Hearts.</span></h>
+          <h3 className="text-white pt-5 font-[poppins] text-sm md:text-base" >
             Helping children and parents find the knowledge to build bridges that connect.
-          </span>
+          </h3>
         </div>
         <div className="flex justify-center w-screen mb-5">
           <img src={landingPicSm} className="w-[98vw] rounded-3xl md:hidden" />
@@ -92,7 +92,7 @@ function App() {
 
 
 
-        <FadeIn className="flex mx-5 mt-5 rounded-2xl overflow-hidden md:mx-30">
+        <FadeIn className="flex mx-5 mt-5 rounded-2xl overflow-hidden md:mx-26">
           <div className="flex items-center">
             <p className="absolute bottom-5 left-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
               HeartsBetween was born from a simple but life-changing question
@@ -106,8 +106,8 @@ function App() {
           The idea began with a young student who repeatedly struggled academically despite possessing an extraordinary gift for drawing. While many saw poor grades, we saw creativity, imagination, and untapped potential. His story sparked a realization that would become the foundation of HeartsBetween: no child should be defined by a report card alone.
         </p>
 
-        <div className="flex mx-25">
-          <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl ">
+        <div className="flex flex-col md:flex-row md:mx-25">
+          <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl md:mx-1 ">
             <div className="flex items-center">
               <p className="absolute bottom-5 left-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
                 At HeartsBetween, we believe every child is intelligent, valuable, and capable of greatness.
@@ -116,7 +116,7 @@ function App() {
             </div>
           </FadeIn>
 
-          <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl">
+          <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl md:mx-1">
             <div className="flex items-center">
               <p className="absolute bottom-5 left-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
                 We are passionate about holistic development.
@@ -145,7 +145,7 @@ function App() {
       </div>
 
       <div className="hidden mt-20 h-auto w-screen overflow-hidden justify-start md:flex">
-        <img src={FadeInImage} className="opacity-3 min-w-1000 nowrap shrink-0" />
+        <img src={FadeInImage} className="opacity-5 min-w-1000 nowrap shrink-0" />
       </div>
 
       <div>
