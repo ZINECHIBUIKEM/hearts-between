@@ -46,7 +46,7 @@ function App() {
 
       <div className="w-screen">
         <div className="absolute top-55 md:top-70 flex flex-col items-center w-screen px-5 md:px-20 z-10  font-[dancing]">
-          <h className="font-semibold md:font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="text-5xl md:text-8xl">Minds</span>, Guiding <span className="text-[#ffffff] text-5xl md:text-8xl">Hearts.</span></h>
+          <h className="font-medium md:font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="text-5xl font-bold md:text-8xl">Minds</span>, Guiding <span className="text-[#ffffff] font-bold text-5xl md:text-8xl">Hearts.</span></h>
           <h3 className="text-white pt-5 font-[poppins] text-sm md:text-base" >
             Helping children and parents find the knowledge to build bridges that connect.
           </h3>
@@ -149,6 +149,9 @@ function App() {
       </div>
 
       <div>
+
+
+        
 
       </div>
 

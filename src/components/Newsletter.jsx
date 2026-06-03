@@ -108,7 +108,7 @@ export function Newsletter() {
         />
       </div>
 
-      <button className="transiton-all duration-200 ease-in-out ring ring-black/80 text-black/80 rounded-lg p-x w-29 h-9 item-center active:ring-black/20 active:text-black/20 hover:text-black/65 hover:ring-black/65" onClick={submitClick}>Submit</button>
+      <button className="transiton-all duration-200 ease-in-out ring ring-black text-black rounded-4xl p-x w-29 h-9 item-center active:ring-black/20 active:text-black/20 hover:text-black/65 hover:ring-black/65" onClick={submitClick}>Submit</button>
 
       <span className={`${subscribed ? "flex" : "hidden"} absolute bottom-5 text-black text-xs`}>You are now subscribed!</span>
 
