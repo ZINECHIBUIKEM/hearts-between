@@ -12,15 +12,18 @@ export function Topbar({ isOpen, setIsopen }) {
           About
         </span>
 
-        <div className="h-px bg-white w-[70vw]" />
+        <div className="h-px bg-white/20 w-[50vw] md:w-[70vw]" />
+
         <span onClick={toggleRightbar} className="text-white cursor-pointer p-5">
           Products
         </span>
-        <div className="h-px bg-white w-[70vw]" />
+        <div className="h-px bg-white/20 w-[50vw] md:w-[70vw]" />
+
         <span onClick={toggleRightbar} className="text-white cursor-pointer p-5">
           Collaborate
         </span>
-        <div className="h-px bg-white w-[70vw]" />
+        <div className="h-px bg-white/20 w-[50vw] md:w-[70vw]" />
+
         <div className="flex items-center justify-center pt-1.5 pb-2 px-5 rounded-full hover:ring hover:bg-white/0 hover:text-white text-black bg-white cursor-pointer transition-all duration-200 ease-in-out">
           <button onClick={toggleRightbar}>
             Donate

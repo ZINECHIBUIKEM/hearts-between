@@ -45,8 +45,8 @@ function App() {
       <CursorFollower lightmode={lightmode} />
 
       <div className="w-screen">
-        <div className="absolute top-55 md:top-70 flex flex-col items-center w-screen px-5 md:px-20 z-10  font-[dancing]">
-          <h className="font-medium md:font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="text-5xl font-bold md:text-8xl">Minds</span>, Guiding <span className="text-[#ffffff] font-bold text-5xl md:text-8xl">Hearts.</span></h>
+        <div className="absolute top-70 md:top-70 flex flex-col items-center w-screen px-5 md:px-20 z-10  font-[dancing]">
+          <h className="font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="text-5xl font-bold md:text-7xl">Minds</span>, Guiding <span className="text-[#ffffff] font-bold text-5xl md:text-7xl">Hearts.</span></h>
           <h3 className="text-white pt-5 font-[poppins] text-sm md:text-base" >
             Helping children and parents find the knowledge to build bridges that connect.
           </h3>
@@ -63,7 +63,7 @@ function App() {
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-9xl mt-20 mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-9xl mt-50 mb-50 px-5">
             NO
           </p>
         </ScrollBlurText>
@@ -71,21 +71,21 @@ function App() {
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50 px-5">
             CHILD
           </p>
         </ScrollBlurText>
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50 px-5">
             IS
           </p>
         </ScrollBlurText>
 
 
         <ScrollBlurText >
-          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50 px-5">
             DUMB
           </p>
         </ScrollBlurText>
@@ -94,7 +94,7 @@ function App() {
 
         <FadeIn className="flex mx-5 mt-5 rounded-2xl overflow-hidden md:mx-26">
           <div className="flex items-center">
-            <p className="absolute bottom-5 left-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
+            <p className="absolute bottom-5 px-10 p-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
               HeartsBetween was born from a simple but life-changing question
             </p>
             <img src={IMG4} className="transition-all duration-500 ease-in-out rounded-2xl hover:scale-105" />
@@ -109,7 +109,7 @@ function App() {
         <div className="flex flex-col md:flex-row md:mx-25">
           <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl md:mx-1 ">
             <div className="flex items-center">
-              <p className="absolute bottom-5 left-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
+              <p className="absolute bottom-5 px-10 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
                 At HeartsBetween, we believe every child is intelligent, valuable, and capable of greatness.
               </p>
               <img src={IMG2} className="transition-all duration-500 ease-in-out rounded-2xl hover:scale-105" />
@@ -118,7 +118,7 @@ function App() {
 
           <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl md:mx-1">
             <div className="flex items-center">
-              <p className="absolute bottom-5 left-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
+              <p className="absolute bottom-5 px-10 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
                 We are passionate about holistic development.
               </p>
               <img src={IMG3} className="transition-all duration-500 ease-in-out rounded-2xl hover:scale-105" />
