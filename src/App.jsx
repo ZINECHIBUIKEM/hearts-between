@@ -45,7 +45,7 @@ function App() {
       <CursorFollower lightmode={lightmode} />
 
       <div className="w-screen">
-        <div className="absolute top-70 md:top-70 flex flex-col items-center w-screen px-5 md:px-20 z-10  font-[dancing]">
+        <div className="absolute top-50 md:top-70 flex flex-col items-center w-screen px-5 md:px-20 z-10 font-[dancing]">
           <h className="font-bold text-5xl md:text-7xl text-white stroke">Growing <span className="text-5xl font-bold md:text-7xl">Minds</span>, Guiding <span className="text-[#ffffff] font-bold text-5xl md:text-7xl">Hearts.</span></h>
           <h3 className="text-white pt-5 font-[poppins] text-sm md:text-base" >
             Helping children and parents find the knowledge to build bridges that connect.
@@ -63,7 +63,7 @@ function App() {
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-9xl mt-50 mb-50 px-5">
+          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mt-50 mb-50">
             NO
           </p>
         </ScrollBlurText>
@@ -71,21 +71,21 @@ function App() {
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50 px-5">
+          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mb-50">
             CHILD
           </p>
         </ScrollBlurText>
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50 px-5">
+          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mb-50">
             IS
           </p>
         </ScrollBlurText>
 
 
         <ScrollBlurText >
-          <p className="text-[#4C1711] font-[playfair] text-9xl mb-50 px-5">
+          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mb-50">
             DUMB
           </p>
         </ScrollBlurText>
