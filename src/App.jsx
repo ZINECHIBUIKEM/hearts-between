@@ -63,7 +63,7 @@ function App() {
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mt-50 mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-8xl md:text-9xl mt-50 mb-50">
             NO
           </p>
         </ScrollBlurText>
@@ -71,21 +71,21 @@ function App() {
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-8xl md:text-9xl mb-50">
             CHILD
           </p>
         </ScrollBlurText>
 
 
         <ScrollBlurText>
-          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-8xl md:text-9xl mb-50">
             IS
           </p>
         </ScrollBlurText>
 
 
         <ScrollBlurText >
-          <p className="text-[#4C1711] font-[playfair] text-7xl md:text-9xl mb-50">
+          <p className="text-[#4C1711] font-[playfair] text-8xl md:text-9xl mb-50">
             DUMB
           </p>
         </ScrollBlurText>
@@ -93,8 +93,8 @@ function App() {
 
 
         <FadeIn className="flex mx-5 mt-5 rounded-2xl overflow-hidden md:mx-26">
-          <div className="flex items-center">
-            <p className="absolute bottom-5 px-10 p-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
+          <div className="flex items-center ">
+            <p className="absolute bottom-1 md:bottom-5 px-10 p-5 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
               HeartsBetween was born from a simple but life-changing question
             </p>
             <img src={IMG4} className="transition-all duration-500 ease-in-out rounded-2xl hover:scale-105" />
@@ -109,7 +109,7 @@ function App() {
         <div className="flex flex-col md:flex-row md:mx-25">
           <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl md:mx-1 ">
             <div className="flex items-center">
-              <p className="absolute bottom-5 px-10 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
+              <p className="absolute bottom-1 md:bottom-5 px-10 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
                 At HeartsBetween, we believe every child is intelligent, valuable, and capable of greatness.
               </p>
               <img src={IMG2} className="transition-all duration-500 ease-in-out rounded-2xl hover:scale-105" />
@@ -118,7 +118,7 @@ function App() {
 
           <FadeIn className="flex mx-5 mt-5 overflow-hidden rounded-2xl md:mx-1">
             <div className="flex items-center">
-              <p className="absolute bottom-5 px-10 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
+              <p className="absolute bottom-1 md:bottom-5 px-10 text-white font-semibold text-shadow-2xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)] text-md z-20 text-start">
                 We are passionate about holistic development.
               </p>
               <img src={IMG3} className="transition-all duration-500 ease-in-out rounded-2xl hover:scale-105" />
