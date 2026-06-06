@@ -101,7 +101,7 @@ function App() {
           </div>
         </FadeIn>
 
-        <p className="px-5 mt-5 text-[#4C1711] font-light text-md">
+        <p className="px-5 mt-5 md:px-25 text-[#4C1711] font-light text-md">
           What if the child struggling in the classroom is not lacking intelligence, but simply expressing it differently?
           The idea began with a young student who repeatedly struggled academically despite possessing an extraordinary gift for drawing. While many saw poor grades, we saw creativity, imagination, and untapped potential. His story sparked a realization that would become the foundation of HeartsBetween: no child should be defined by a report card alone.
         </p>
@@ -127,7 +127,7 @@ function App() {
 
         </div>
 
-        <p className="px-5 mt-5 text-[#4C1711] font-light text-md">
+        <p className="px-5 mt-5 md:px-25 text-[#4C1711] font-light text-md">
 
           We recognize that intelligence manifests in different ways, and that many young people go through life carrying labels that do not reflect who they truly are.
 
