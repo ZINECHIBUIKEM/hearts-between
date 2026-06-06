@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <link rel="icon" href="HBWhite.png" />
+      <link rel="icon" href="HeartsbetweenFavicon2.png" />
       <Navbar isOpen={isOpen} setIsopen={setIsopen} className="z-50" />
       <CursorFollower lightmode={lightmode} />
 
